@@ -22,15 +22,15 @@
     
     ?>
 <body>
-    <img class = "wave" src="../img/wave.png" alt="">
-    <img class = "wave-right" src="../img/wave-right.png" alt="">
+    <img class = "wave" src="img/wave.png" alt="">
+    <img class = "wave-right" src="img/wave-right.png" alt="">
     <div class = "contenedor">
         <div class = "img">
-            <img src="../img/undraw_medicine_hqqg.svg" alt="">
+            <img src="img/undraw_medicine_hqqg.svg" alt="">
         </div>
         <div class = "contenido-login">
-            <form action="../controlador/LoginController.php" method="post">
-                <img src="../img/logo_mia_transparente.png" alt="">
+            <form action="controlador/LoginController.php" method="post">
+                <img src="img/logo_mia_transparente.png" alt="">
                 <h2>Farmacia Mia</h2>
                 <div class="input-div dni">
                     <div class="i">
@@ -56,11 +56,9 @@
         </div>
     </div>
 </body>
-<script src="../js/login.js" > </script>
+<script src="js/login.js" > </script>
 </html>
 <?php
     
 }
 ?>
-
-

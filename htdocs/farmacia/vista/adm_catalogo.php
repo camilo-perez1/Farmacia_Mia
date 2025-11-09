@@ -65,7 +65,8 @@ if($_SESSION['us_tipo'] == 1){
 <?php
 }
 else{
-    header('location: ../vista/login.php');
+    header('location: ../index.php');
 }
 
 ?>
+
