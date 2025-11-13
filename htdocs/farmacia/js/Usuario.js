@@ -1,63 +1,64 @@
 $(document).ready(function() {
     var funcion = '';
     var id_usuario = $('#id_usuario').val();
+     
+   
     var edit = false;
 
     buscar_usuario(id_usuario);
-
     function buscar_usuario(dato) {
         funcion = 'buscar_usuario';
-        
-        // ########## CORRECCIÓN: 'Usuario.controller.php' cambiado a 'Usuario.Controller.php' ##########
-        $.ajax({
-            url: '../controlador/Usuario.Controller.php', // Unificado a 'C' mayúscula
-            type: 'POST',
-            data: { dato: dato, funcion: funcion },
-            dataType: 'json',
-            success: function(response) {
-                console.log('Respuesta servidor (objeto):', response);
-                // response ya es un objeto (o un array vacío). Usarlo directamente.
-                const usuario = response || {};
-                const nombre = usuario.nombre || '';
-                const apellidos = usuario.apellidos || '';
-                const telefono = usuario.telefono || '';
-                const edad = usuario.edad || '';
-                const identificacion = usuario.identificacion || '';
-                const tipo = usuario.us_tipo || '';
-                const residencia = usuario.residencia || '';
-                const sexo = usuario.sexo || '';
-                const adicional = usuario.adicional || '';
-                const correo = usuario.correo || '';
+        $.post('../controlador/UsuarioController.php', {dato,funcion}, (response) => {
+            let nombre='';
+            let apellidos='';
+            let edad='';
+            let dni='';
+            let tipo='';
+            let telefono='';
+            let residencia='';
+            let correo='';
+            let sexo='';
+            let adicional='';
 
-                $('#nombre_us').html(nombre);
-                $('#apellidos_us').html(apellidos);
-                $('#telefono_us').html(telefono);
-                $('#edad').html(edad);
-                $('#identificacion_us').html(identificacion);
-                $('#us_tipo').html(tipo);
-                $('#residencia_us').html(residencia);
-                $('#sexo_us').html(sexo);
-                $('#adicional_us').html(adicional);
-                $('#correo_us').html(correo);
-            },
-            error: function(xhr, status, error) {
-                // Mostrar la respuesta textual para debug (puede contener HTML o mensajes de error)
-                console.error('Error AJAX:', status, error);
-                console.error('Respuesta del servidor:', xhr.responseText);
-            }
+            const usuario = response; //antes estaba esto  const usuario = JSON.parse(response);
+
+            nombre+= `${usuario.nombre}`;
+            apellidos += `${usuario.apellidos}`;
+            edad += `${usuario.edad}`;
+            dni += `${usuario.dni}`;
+            tipo += `${usuario.tipo}`;
+            telefono += `${usuario.telefono}`;
+            residencia += `${usuario.residencia}`;
+            correo += `${usuario.correo}`;
+            sexo += `${usuario.sexo}`;
+            adicional += `${usuario.adicional}`;
+
+            $('#nombre_us').html(nombre);
+            $('#apellidos_us').html(apellidos);
+            $('#edad').html(edad);
+            $('#dni_us').html(dni);
+            $('#us_tipo').html(tipo);
+            $('#telefono_us').html(telefono);
+            $('#residencia_us').html(residencia);
+            $('#correo_us').html(correo);
+            $('#sexo_us').html(sexo);
+            $('#adicional_us').html(adicional);
+            
         });
+        
     }
-
+    
     $(document).on('click', '.edit', (e) => {
         funcion = 'capturar_datos';
         edit = true;
-        $.post('../controlador/Usuario.Controller.php', { funcion, id_usuario }, (response) => {
-            const usuario = JSON.parse(response);
+        $.post('../controlador/UsuarioController.php', {funcion,id_usuario }, (response) => {
+            const usuario = response;
             $('#telefono').val(usuario.telefono);
             $('#residencia').val(usuario.residencia); // ID corregido en HTML
             $('#correo').val(usuario.correo);       // ID corregido en HTML
             $('#sexo').val(usuario.sexo);         // ID corregido en HTML
             $('#adicional').val(usuario.adicional);
+            
         });
     });
 
@@ -69,23 +70,45 @@ $(document).ready(function() {
             let sexo = $('#sexo').val();
             let adicional = $('#adicional').val();
             funcion = 'editar_usuario';
-
-            $.post('../controlador/Usuario.Controller.php', { id_usuario, funcion, telefono, residencia, correo, sexo, adicional }, (response) => {
-                if (response == 'editado') {
-                    $('#editado').hide('slow');
-                    $('#editado').show(1000);
-                    $('#editado').hide(2000);
+            $.post('../controlador/UsuarioController.php',{id_usuario,funcion,telefono,residencia,correo,sexo,adicional}, (response) => {
+                if (response.status == 'success') {
+                    $('#status').hide('slow');
+                    $('#status').show(1000);
+                    $('#status').hide(2000);
                     $('#form-usuario').trigger('reset');
+                    edit = false;
                 }
                 edit = false;
                 buscar_usuario(id_usuario);
             })
         } else {
-            $('#no_editado').hide('slow');
-            $('#no_editado').show(1000);
-            $('#no_editado').hide(2000);
+            $('#noeditado').hide('slow');
+            $('#noeditado').show(1000);
+            $('#noeditado').hide(2000);
             $('#form-usuario').trigger('reset');
         }
         e.preventDefault();
     })
-});
+
+    $('#form-pass').submit(e => { 
+        let oldpass = $('#oldpass').val();
+        let newpass = $('#newpass').val();
+        funcion ='cambiar_contra';
+        $.post('../controlador/UsuarioController.php', {id_usuario,funcion,oldpass,newpass}, (response) => {          
+            if (response.status == 'success') {
+                $('#update').hide('slow');
+                $('#update').show(1000);
+                $('#update').hide(2000);
+                $('#form-pass').trigger('reset');
+            }else{
+                $('#noupdate').hide('slow');
+                $('#noupdate').show(1000);
+                $('#noupdate').hide(2000);
+                $('#form-pass').trigger('reset');
+
+            }
+        })
+        e.preventDefault();
+    })
+        
+})

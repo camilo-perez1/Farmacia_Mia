@@ -21,7 +21,7 @@ class Usuario
 
     function obtener_datos($id)
     {
-        $sql = "SELECT * FROM usuario join us_tipo on us_tipo=id_tipo_us and id_usuario=:id";
+        $sql = "SELECT * FROM usuario join tipo_us on us_tipo=id_tipo_us and id_usuario=:id";
         $query = $this->acceso->prepare($sql);
         $query->execute(array(':id' => $id));
         $this->objetos = $query->fetchAll();
@@ -30,7 +30,8 @@ class Usuario
 
     // ########## CÓDIGO FALTANTE AÑADIDO (INICIO) ##########
     
-    function editar($id, $telefono, $residencia, $correo, $sexo, $adicional)
+    
+    function editar($id_usuario, $telefono, $residencia, $correo, $sexo, $adicional)
     {
         $sql = "UPDATE usuario SET
             telefono_us = :telefono,
@@ -39,26 +40,27 @@ class Usuario
             sexo_us = :sexo,
             adicional_us = :adicional
         WHERE id_usuario = :id";
-
         $query = $this->acceso->prepare($sql);
-        $variables = array(
-            ':id' => $id,
-            ':telefono' => $telefono,
-            ':residencia' => $residencia,
-            ':correo' => $correo,
-            ':sexo' => $sexo,
-            ':adicional' => $adicional
-        );
-
-        if ($query->execute($variables)) {
-            return 'editado'; // Devuelve 'editado' si la consulta tuvo éxito
-        } else {
-            // Opcional: puedes devolver el error para depurar
-            // return $query->errorInfo();
-            return 'no_editado';
-        }
+        return $query->execute(array(':id'=>$id_usuario, ':telefono'=>$telefono, ':residencia'=>$residencia, ':correo'=>$correo, ':sexo'=>$sexo, ':adicional'=>$adicional));
     }
 
     // ########## CÓDIGO FALTANTE AÑADIDO (FIN) ##########
+
+    function cambiar_contra($id_usuario,$oldpass,$newpass)
+    {
+        $sql ="SELECT * FROM usuario 
+        WHERE id_usuario=:id AND contrasena_us=:oldpass";
+        $query = $this->acceso->prepare($sql);
+        $query->execute(array(':id'=>$id_usuario,':oldpass'=>$oldpass));
+        $this->objetos = $query->fetchAll();
+        if(!empty($this->objetos)){
+            $sql="UPDATE usuario SET contrasena_us=:newpass WHERE id_usuario=:id";
+            $query = $this->acceso->prepare($sql);
+            return $query->execute(array(':id'=>$id_usuario,':newpass'=>$newpass));
+            
+        }else{
+            return 'wrong-pass';
+        }
+    } 
 }
 ?>

@@ -39,7 +39,7 @@ else{
             default:
         }
     }else{
-        header('location: ../vista/login.php');
+        header('location: ../index.php');
     }
 
 }

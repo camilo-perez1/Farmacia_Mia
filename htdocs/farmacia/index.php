@@ -10,16 +10,16 @@
     <link rel="stylesheet" type = "text/css" href="/farmacia/css/style.css">
    <link rel="stylesheet" type="text/css" href="/farmacia/css/css/all.min.css">
 </head> 
-    <?php
+ <?php
     session_start();
     if(!empty($_SESSION['us_tipo'])){
-        header('location: ../controlador/LoginController.php');
+        header('location: controlador/LoginController.php');
     }
     else{
     session_destroy();
 
-       
-    
+    }
+   
     ?>
 <body>
     <img class = "wave" src="img/wave.png" alt="">
@@ -60,5 +60,5 @@
 </html>
 <?php
     
-}
+
 ?>
