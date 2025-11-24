@@ -285,3 +285,871 @@ tables to flush: 1 0
 2025-11-08 16:00:17 0 [Note] Plugin 'FEEDBACK' is disabled.
 2025-11-08 16:00:17 0 [Note] InnoDB: Buffer pool(s) load completed at 251108 16:00:17
 2025-11-08 16:00:17 0 [Note] Server socket created on IP: '::'.
+2025-11-09 13:44:50 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 16644
+2025-11-09 13:44:50 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-09 13:44:50 0 [Note] InnoDB: Uses event mutexes
+2025-11-09 13:44:50 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-09 13:44:50 0 [Note] InnoDB: Number of pools: 1
+2025-11-09 13:44:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-09 13:44:50 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-09 13:44:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-09 13:44:50 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1127348
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\detalle_venta.ibd' OS error: 203
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:50 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`detalle_venta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:50 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`detalle_venta` because it could not be opened.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\laboratorio.ibd' OS error: 203
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:50 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`laboratorio``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:50 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`laboratorio` because it could not be opened.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\lote.ibd' OS error: 203
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:50 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`lote``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:50 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`lote` because it could not be opened.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\presentacion.ibd' OS error: 203
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:50 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`presentacion``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:50 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`presentacion` because it could not be opened.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\producto.ibd' OS error: 203
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:50 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`producto``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:50 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`producto` because it could not be opened.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\proveedor.ibd' OS error: 203
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:50 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:50 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`proveedor``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:50 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`proveedor` because it could not be opened.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\tipo_producto.ibd' OS error: 203
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:51 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`tipo_producto``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:51 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`tipo_producto` because it could not be opened.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\tipo_us.ibd' OS error: 203
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:51 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`tipo_us``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:51 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`tipo_us` because it could not be opened.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\usuario.ibd' OS error: 203
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:51 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`usuario``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:51 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`usuario` because it could not be opened.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\venta.ibd' OS error: 203
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:51 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`venta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:51 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`venta` because it could not be opened.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\venta_mensual.ibd' OS error: 203
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:51 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`venta_mensual``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:51 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`venta_mensual` because it could not be opened.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\farmaciasistema\venta_producto.ibd' OS error: 203
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2025-11-09 13:44:51 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2025-11-09 13:44:51 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``farmaciasistema`.`venta_producto``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-09 13:44:51 0 [Warning] InnoDB: Ignoring tablespace for `farmaciasistema`.`venta_producto` because it could not be opened.
+2025-11-09 13:44:51 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-09 13:44:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-09 13:44:51 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-09 13:44:51 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-09 13:44:51 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-09 13:44:51 0 [Note] InnoDB: Waiting for purge to start
+2025-11-09 13:44:51 0 [Note] InnoDB: Waiting for purge to start
+2025-11-09 13:44:51 0 [Note] InnoDB: 10.4.32 started; log sequence number 1127357; transaction id 1494
+2025-11-09 13:44:51 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-09 13:44:51 0 [Note] InnoDB: Buffer pool(s) load completed at 251109 13:44:51
+2025-11-09 13:44:51 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-09 13:44:51 0 [Note] Server socket created on IP: '::'.
+2025-11-09 15:14:01 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 10356
+2025-11-09 15:14:01 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-09 15:14:01 0 [Note] InnoDB: Uses event mutexes
+2025-11-09 15:14:01 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-09 15:14:01 0 [Note] InnoDB: Number of pools: 1
+2025-11-09 15:14:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-09 15:14:01 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-09 15:14:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-09 15:14:01 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1133703
+2025-11-09 15:14:01 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-09 15:14:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-09 15:14:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-09 15:14:01 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-09 15:14:01 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-09 15:14:01 0 [Note] InnoDB: Waiting for purge to start
+2025-11-09 15:14:01 0 [Note] InnoDB: 10.4.32 started; log sequence number 1133712; transaction id 1541
+2025-11-09 15:14:01 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-09 15:14:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-09 15:14:01 0 [Note] Server socket created on IP: '::'.
+2025-11-10 22:48:42 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 14484
+2025-11-10 22:48:42 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-10 22:48:42 0 [Note] InnoDB: Uses event mutexes
+2025-11-10 22:48:42 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-10 22:48:42 0 [Note] InnoDB: Number of pools: 1
+2025-11-10 22:48:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-10 22:48:42 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-10 22:48:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-10 22:48:42 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1181992
+2025-11-10 22:48:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-10 22:48:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-10 22:48:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-10 22:48:43 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-10 22:48:43 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-10 22:48:43 0 [Note] InnoDB: Waiting for purge to start
+2025-11-10 22:48:43 0 [Note] InnoDB: 10.4.32 started; log sequence number 1182001; transaction id 1710
+2025-11-10 22:48:43 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-10 22:48:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-10 22:48:43 0 [Note] InnoDB: Buffer pool(s) load completed at 251110 22:48:43
+2025-11-10 22:48:43 0 [Note] Server socket created on IP: '::'.
+2025-11-11 16:27:07 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 6404
+2025-11-11 16:27:07 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-11 16:27:07 0 [Note] InnoDB: Uses event mutexes
+2025-11-11 16:27:07 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-11 16:27:07 0 [Note] InnoDB: Number of pools: 1
+2025-11-11 16:27:07 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-11 16:27:07 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-11 16:27:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-11 16:27:07 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1182010
+2025-11-11 16:27:07 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-11 16:27:07 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-11 16:27:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-11 16:27:07 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-11 16:27:07 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-11 16:27:07 0 [Note] InnoDB: Waiting for purge to start
+2025-11-11 16:27:07 0 [Note] InnoDB: 10.4.32 started; log sequence number 1182019; transaction id 1710
+2025-11-11 16:27:07 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 16:27:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-11 16:27:07 0 [Note] Server socket created on IP: '::'.
+2025-11-11 16:37:47 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 20588
+2025-11-11 16:37:47 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-11 16:37:47 0 [Note] InnoDB: Uses event mutexes
+2025-11-11 16:37:47 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-11 16:37:47 0 [Note] InnoDB: Number of pools: 1
+2025-11-11 16:37:47 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-11 16:37:47 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-11 16:37:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-11 16:37:47 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1182028
+2025-11-11 16:37:47 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-11 16:37:47 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-11 16:37:47 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-11 16:37:47 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-11 16:37:47 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-11 16:37:47 0 [Note] InnoDB: Waiting for purge to start
+2025-11-11 16:37:47 0 [Note] InnoDB: 10.4.32 started; log sequence number 1182037; transaction id 1710
+2025-11-11 16:37:47 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 16:37:47 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-11 16:37:47 0 [Note] Server socket created on IP: '::'.
+2025-11-11 16:37:47 0 [Note] InnoDB: Buffer pool(s) load completed at 251111 16:37:47
+2025-11-11 16:37:47 0 [Note] Reading of all Master_info entries succeeded
+2025-11-11 16:37:47 0 [Note] Added new Master_info '' to hash table
+2025-11-11 16:37:47 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3308  mariadb.org binary distribution
+2025-11-11 17:06:15 9 [Warning] InnoDB: Table farmaciasistema/usuario contains 7 user defined columns in InnoDB, but 12 columns in MariaDB. Please check INFORMATION_SCHEMA.INNODB_SYS_COLUMNS and https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-11 17:06:15 9 [ERROR] mysqld.exe: Table 'usuario' is marked as crashed and should be repaired
+2025-11-11 17:06:31 10 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:07:24 11 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:08:17 12 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:11:42 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-11 17:11:42 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-11 17:11:42 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-11 17:11:43 0 [Note] InnoDB: Starting shutdown...
+2025-11-11 17:11:43 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 17:11:43 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-11 17:11:43 0 [Note] InnoDB: Buffer pool(s) dump completed at 251111 17:11:43
+2025-11-11 17:11:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-11 17:11:44 0 [Note] InnoDB: Shutdown completed; log sequence number 1182055; transaction id 1711
+2025-11-11 17:11:44 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-11 17:12:11 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 1644
+2025-11-11 17:12:11 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-11 17:12:11 0 [Note] InnoDB: Uses event mutexes
+2025-11-11 17:12:11 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-11 17:12:11 0 [Note] InnoDB: Number of pools: 1
+2025-11-11 17:12:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-11 17:12:11 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-11 17:12:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-11 17:12:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-11 17:12:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-11 17:12:11 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-11 17:12:11 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-11 17:12:11 0 [Note] InnoDB: Waiting for purge to start
+2025-11-11 17:12:11 0 [Note] InnoDB: 10.4.32 started; log sequence number 1182055; transaction id 1710
+2025-11-11 17:12:11 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 17:12:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-11 17:12:11 0 [Note] Server socket created on IP: '::'.
+2025-11-11 17:12:11 0 [Note] InnoDB: Buffer pool(s) load completed at 251111 17:12:11
+2025-11-11 17:12:12 0 [Note] Reading of all Master_info entries succeeded
+2025-11-11 17:12:12 0 [Note] Added new Master_info '' to hash table
+2025-11-11 17:12:12 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3308  mariadb.org binary distribution
+2025-11-11 17:12:13 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-11 17:12:13 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-11 17:12:13 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-11 17:12:13 0 [Note] InnoDB: Starting shutdown...
+2025-11-11 17:12:13 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 17:12:13 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-11 17:12:13 0 [Note] InnoDB: Buffer pool(s) dump completed at 251111 17:12:13
+2025-11-11 17:12:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-11 17:12:15 0 [Note] InnoDB: Shutdown completed; log sequence number 1182064; transaction id 1711
+2025-11-11 17:12:15 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-11 17:13:03 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 2700
+2025-11-11 17:13:03 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-11 17:13:03 0 [Note] InnoDB: Uses event mutexes
+2025-11-11 17:13:03 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-11 17:13:03 0 [Note] InnoDB: Number of pools: 1
+2025-11-11 17:13:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-11 17:13:03 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-11 17:13:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-11 17:13:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-11 17:13:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-11 17:13:03 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-11 17:13:03 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-11 17:13:03 0 [Note] InnoDB: Waiting for purge to start
+2025-11-11 17:13:03 0 [Note] InnoDB: 10.4.32 started; log sequence number 1182064; transaction id 1710
+2025-11-11 17:13:03 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 17:13:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-11 17:13:03 0 [Note] Server socket created on IP: '::'.
+2025-11-11 17:13:03 0 [Note] InnoDB: Buffer pool(s) load completed at 251111 17:13:03
+2025-11-11 17:13:03 0 [Note] Reading of all Master_info entries succeeded
+2025-11-11 17:13:03 0 [Note] Added new Master_info '' to hash table
+2025-11-11 17:13:03 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-11 17:13:08 9 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:08 9 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:08 9 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:08 9 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:10 13 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:10 13 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:10 13 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:10 13 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:13:20 22 [Warning] InnoDB: Table farmaciasistema/usuario contains 7 user defined columns in InnoDB, but 12 columns in MariaDB. Please check INFORMATION_SCHEMA.INNODB_SYS_COLUMNS and https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2025-11-11 17:13:20 22 [ERROR] mysqld.exe: Table 'usuario' is marked as crashed and should be repaired
+2025-11-11 17:13:31 23 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:04 25 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:04 27 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:04 27 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:04 27 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:04 27 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:05 29 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:05 29 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:05 31 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:05 31 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:07 33 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:14 35 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:40 37 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:47 39 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:47 39 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:47 39 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:47 39 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:47 39 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:47 39 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:47 39 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:14:49 45 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:49 45 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:49 45 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:49 45 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:14:51 51 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:15:51 97 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:16:35 99 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:16:57 117 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:16:58 119 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:16:58 119 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:16:58 119 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:16:58 119 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:17:28 121 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:17:31 123 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:17:31 123 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:17:31 123 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:17:31 123 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:04 125 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:18:11 127 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:18:12 129 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:12 129 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:13 129 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:13 129 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:18 131 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:18:19 133 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:19 133 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:19 133 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:18:19 133 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:41 135 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:19:42 137 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:42 137 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:42 137 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:42 137 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:44 139 [ERROR] InnoDB: Table `farmaciasistema`.`usuario` is corrupted. Please drop the table and recreate.
+2025-11-11 17:19:44 141 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:44 141 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:44 141 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:19:44 141 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:01 145 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:01 145 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:01 145 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:01 145 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:01 147 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:01 147 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:02 149 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:02 149 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:02 149 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:02 149 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:03 151 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:03 151 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:04 153 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:04 153 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:04 153 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:04 153 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:19 155 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:19 155 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:19 157 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:19 157 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:19 157 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:19 157 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:26 161 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:26 161 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:26 161 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:26 161 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:27 165 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:27 165 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:27 167 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:27 167 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:27 167 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:27 167 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:28 169 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:28 169 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:31 173 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:31 173 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:31 175 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:31 175 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:31 175 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:31 175 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:32 177 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:32 177 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:35 181 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:35 181 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:35 181 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:35 181 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:41 185 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:41 185 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:41 185 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:41 185 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:55 187 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:55 187 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:55 187 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:55 187 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:55 187 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:56 189 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:56 189 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:56 189 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:20:56 189 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:39:51 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:39:51 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:39:51 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:39:51 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:03 223 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:03 223 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:03 223 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:03 223 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:15 227 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:15 227 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:19 229 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:40:19 229 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:01 233 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:01 233 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:01 233 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:01 233 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:34 239 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:34 239 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:35 239 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:44:35 239 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:45:14 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:45:14 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:45:14 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:45:14 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:23 262 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:23 262 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:23 262 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:23 262 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:25 270 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:25 270 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:25 270 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:25 270 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:46 282 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:46 282 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:46 282 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:46 282 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:46 282 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:47 284 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:47 284 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:47 284 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 17:59:47 284 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:23 320 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:23 320 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:23 320 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:23 320 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:55 332 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:55 332 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:55 332 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:00:55 332 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:16:52 361 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:16:52 361 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:16:53 361 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:16:53 361 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:18 367 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:18 367 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:18 367 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:18 367 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:50 371 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:50 371 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:50 371 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:50 371 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:50 371 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:53 375 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:53 375 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:53 375 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 18:22:53 375 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 19:24:52 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-11 19:24:52 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-11 19:24:52 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-11 19:24:52 0 [Note] InnoDB: Starting shutdown...
+2025-11-11 19:24:52 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 19:24:52 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-11 19:24:52 0 [Note] InnoDB: Buffer pool(s) dump completed at 251111 19:24:52
+2025-11-11 19:24:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-11 19:24:53 0 [Note] InnoDB: Shutdown completed; log sequence number 2073829; transaction id 2688
+2025-11-11 19:24:53 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-11 19:25:20 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3484
+2025-11-11 19:25:20 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-11 19:25:20 0 [Note] InnoDB: Uses event mutexes
+2025-11-11 19:25:20 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-11 19:25:20 0 [Note] InnoDB: Number of pools: 1
+2025-11-11 19:25:20 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-11 19:25:20 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-11 19:25:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-11 19:25:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-11 19:25:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-11 19:25:20 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-11 19:25:20 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-11 19:25:20 0 [Note] InnoDB: Waiting for purge to start
+2025-11-11 19:25:21 0 [Note] InnoDB: 10.4.32 started; log sequence number 2073829; transaction id 2689
+2025-11-11 19:25:21 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-11 19:25:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-11 19:25:21 0 [Note] InnoDB: Buffer pool(s) load completed at 251111 19:25:21
+2025-11-11 19:25:21 0 [Note] Server socket created on IP: '::'.
+2025-11-11 19:25:21 0 [Note] Reading of all Master_info entries succeeded
+2025-11-11 19:25:21 0 [Note] Added new Master_info '' to hash table
+2025-11-11 19:25:21 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-11 23:31:55 128 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:31:55 128 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:31:55 128 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:31:55 128 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:31:55 128 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:00 132 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:00 132 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:00 132 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:00 132 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:00 136 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:00 136 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:18 146 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:18 146 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:18 146 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-11 23:32:18 146 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12  9:53:28 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3872
+2025-11-12  9:53:28 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-12  9:53:28 0 [Note] InnoDB: Uses event mutexes
+2025-11-12  9:53:28 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-12  9:53:28 0 [Note] InnoDB: Number of pools: 1
+2025-11-12  9:53:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-12  9:53:28 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-12  9:53:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-12  9:53:28 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2080536
+2025-11-12  9:53:28 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-12  9:53:28 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-12  9:53:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-12  9:53:28 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-12  9:53:28 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-12  9:53:28 0 [Note] InnoDB: Waiting for purge to start
+2025-11-12  9:53:28 0 [Note] InnoDB: 10.4.32 started; log sequence number 2080545; transaction id 2850
+2025-11-12  9:53:28 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12  9:53:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-12  9:53:29 0 [Note] InnoDB: Buffer pool(s) load completed at 251112  9:53:29
+2025-11-12  9:53:29 0 [Note] Server socket created on IP: '::'.
+2025-11-12  9:53:29 0 [Note] Reading of all Master_info entries succeeded
+2025-11-12  9:53:29 0 [Note] Added new Master_info '' to hash table
+2025-11-12  9:53:29 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-12 10:21:33 17 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:34 17 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:34 17 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:34 17 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:34 17 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:40 21 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:40 21 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:40 21 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:21:40 21 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:47 80 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:47 80 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:47 80 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:47 80 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:55 84 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:55 84 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:55 84 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:55 84 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:55 84 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:56 86 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:56 86 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:56 86 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 10:56:56 86 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:32 165 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:32 165 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:32 165 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:32 165 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:34 169 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:34 169 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:34 169 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:34 169 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:35 175 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:53:35 175 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:13 182 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:13 182 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:13 182 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:13 182 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:14 184 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:14 184 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:14 184 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 11:55:14 184 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:04:57 198 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:04:57 198 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:04:57 198 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:04:57 198 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:03 203 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:03 203 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:03 203 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:04 203 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:54 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:54 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:54 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:54 217 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:55 221 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:55 221 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:55 221 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:05:55 221 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:17:44 235 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:17:44 235 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:17:44 235 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:17:44 235 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:13 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:13 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:13 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:13 247 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:26 253 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:26 253 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:26 253 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:26 253 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:35 257 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:35 257 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:35 257 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:35 257 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:35 257 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:37 263 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:37 263 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:37 263 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:18:37 263 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:19:23 276 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:19:23 276 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:19:23 276 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:19:23 276 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-12 12:49:24 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-12 12:49:24 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-12 12:49:24 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-12 12:49:24 0 [Note] InnoDB: Starting shutdown...
+2025-11-12 12:49:24 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 12:49:24 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-12 12:49:24 0 [Note] InnoDB: Buffer pool(s) dump completed at 251112 12:49:24
+2025-11-12 12:49:26 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-12 12:49:26 0 [Note] InnoDB: Shutdown completed; log sequence number 2148017; transaction id 3004
+2025-11-12 12:49:26 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-12 13:02:44 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3852
+2025-11-12 13:02:44 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-12 13:02:44 0 [Note] InnoDB: Uses event mutexes
+2025-11-12 13:02:44 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-12 13:02:44 0 [Note] InnoDB: Number of pools: 1
+2025-11-12 13:02:44 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-12 13:02:44 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-12 13:02:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-12 13:02:45 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-12 13:02:45 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-12 13:02:45 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-12 13:02:45 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-12 13:02:45 0 [Note] InnoDB: Waiting for purge to start
+2025-11-12 13:02:45 0 [Note] InnoDB: 10.4.32 started; log sequence number 2148017; transaction id 3005
+2025-11-12 13:02:45 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 13:02:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-12 13:02:45 0 [Note] Server socket created on IP: '::'.
+2025-11-12 13:02:45 0 [Note] InnoDB: Buffer pool(s) load completed at 251112 13:02:45
+2025-11-12 13:02:45 0 [Note] Reading of all Master_info entries succeeded
+2025-11-12 13:02:45 0 [Note] Added new Master_info '' to hash table
+2025-11-12 13:02:45 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-12 21:09:05 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3744
+2025-11-12 21:09:05 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-12 21:09:05 0 [Note] InnoDB: Uses event mutexes
+2025-11-12 21:09:05 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-12 21:09:05 0 [Note] InnoDB: Number of pools: 1
+2025-11-12 21:09:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-12 21:09:05 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-12 21:09:05 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-12 21:09:05 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2148017
+2025-11-12 21:09:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-12 21:09:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-12 21:09:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-12 21:09:05 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-12 21:09:05 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-12 21:09:05 0 [Note] InnoDB: Waiting for purge to start
+2025-11-12 21:09:05 0 [Note] InnoDB: 10.4.32 started; log sequence number 2148026; transaction id 3005
+2025-11-12 21:09:05 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 21:09:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-12 21:09:06 0 [Note] Server socket created on IP: '::'.
+2025-11-12 21:09:06 0 [Note] InnoDB: Buffer pool(s) load completed at 251112 21:09:06
+2025-11-12 21:09:06 0 [Note] Reading of all Master_info entries succeeded
+2025-11-12 21:09:06 0 [Note] Added new Master_info '' to hash table
+2025-11-12 21:09:06 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-12 21:09:19 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-12 21:09:19 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-12 21:09:19 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-12 21:09:19 0 [Note] InnoDB: Starting shutdown...
+2025-11-12 21:09:19 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 21:09:19 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-12 21:09:19 0 [Note] InnoDB: Buffer pool(s) dump completed at 251112 21:09:19
+2025-11-12 21:09:20 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-12 21:09:20 0 [Note] InnoDB: Shutdown completed; log sequence number 2148044; transaction id 3006
+2025-11-12 21:09:20 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-12 21:09:41 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3748
+2025-11-12 21:09:41 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-12 21:09:41 0 [Note] InnoDB: Uses event mutexes
+2025-11-12 21:09:41 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-12 21:09:41 0 [Note] InnoDB: Number of pools: 1
+2025-11-12 21:09:41 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-12 21:09:41 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-12 21:09:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-12 21:09:42 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-12 21:09:42 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-12 21:09:42 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-12 21:09:42 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-12 21:09:42 0 [Note] InnoDB: 10.4.32 started; log sequence number 2148044; transaction id 3005
+2025-11-12 21:09:42 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 21:09:42 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-12 21:09:42 0 [Note] Server socket created on IP: '::'.
+2025-11-12 21:09:42 0 [Note] InnoDB: Buffer pool(s) load completed at 251112 21:09:42
+2025-11-12 21:09:42 0 [Note] Reading of all Master_info entries succeeded
+2025-11-12 21:09:42 0 [Note] Added new Master_info '' to hash table
+2025-11-12 21:09:42 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-12 21:29:10 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-12 21:29:10 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-12 21:29:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-12 21:29:10 0 [Note] InnoDB: Starting shutdown...
+2025-11-12 21:29:10 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 21:29:10 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-12 21:29:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 251112 21:29:10
+2025-11-12 21:29:10 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-12 21:29:10 0 [Note] InnoDB: Shutdown completed; log sequence number 2148053; transaction id 3006
+2025-11-12 21:29:10 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-12 21:32:00 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3776
+2025-11-12 21:32:00 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-12 21:32:00 0 [Note] InnoDB: Uses event mutexes
+2025-11-12 21:32:00 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-12 21:32:00 0 [Note] InnoDB: Number of pools: 1
+2025-11-12 21:32:00 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-12 21:32:00 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-12 21:32:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-12 21:32:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-12 21:32:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-12 21:32:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-12 21:32:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-12 21:32:00 0 [Note] InnoDB: Waiting for purge to start
+2025-11-12 21:32:00 0 [Note] InnoDB: 10.4.32 started; log sequence number 2148053; transaction id 3005
+2025-11-12 21:32:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-12 21:32:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-12 21:32:00 0 [Note] Server socket created on IP: '::'.
+2025-11-12 21:32:00 0 [Note] InnoDB: Buffer pool(s) load completed at 251112 21:32:00
+2025-11-12 21:32:00 0 [Note] Reading of all Master_info entries succeeded
+2025-11-12 21:32:00 0 [Note] Added new Master_info '' to hash table
+2025-11-12 21:32:00 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-16 18:35:26 71 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:26 71 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:27 71 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:27 71 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:32 76 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:32 76 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:32 76 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:35:32 76 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:24 89 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:24 89 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:24 89 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:25 89 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:25 91 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:25 91 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:25 93 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:25 93 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 97 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 97 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 97 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 97 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 99 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 99 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 101 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:36:36 101 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:37:03 109 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:37:03 109 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:37:03 109 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 18:37:03 109 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:41 135 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:41 135 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:41 135 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:41 135 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:41 135 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:42 139 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:42 139 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:42 139 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 19:09:42 139 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:38 720 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:38 720 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:38 720 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:38 720 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:41 726 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:41 726 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:41 726 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:41 726 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:48 736 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:48 736 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:48 738 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:48 738 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:48 738 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:48 738 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:49 740 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:01:49 740 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:02:08 748 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:02:08 748 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:02:08 748 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:02:08 748 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:13 754 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:13 754 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:13 754 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:13 754 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:24 764 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:24 764 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:24 764 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:24 764 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:50 770 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:50 770 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:50 770 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:04:50 770 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:05:54 778 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:05:54 778 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:05:54 778 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-16 23:05:54 778 [ERROR] Invalid (old?) table or database name '0101-mas'
+2025-11-19  6:24:47 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3308
+2025-11-19  6:24:47 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-19  6:24:47 0 [Note] InnoDB: Uses event mutexes
+2025-11-19  6:24:47 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-19  6:24:47 0 [Note] InnoDB: Number of pools: 1
+2025-11-19  6:24:47 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-19  6:24:47 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-19  6:24:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-19  6:24:47 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2153302
+2025-11-19  6:24:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-19  6:24:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-19  6:24:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-19  6:24:48 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-19  6:24:48 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-19  6:24:48 0 [Note] InnoDB: Waiting for purge to start
+2025-11-19  6:24:48 0 [Note] InnoDB: 10.4.32 started; log sequence number 2153311; transaction id 3063
+2025-11-19  6:24:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-19  6:24:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-19  6:24:48 0 [Note] Server socket created on IP: '::'.
+2025-11-19  6:24:48 0 [Note] InnoDB: Buffer pool(s) load completed at 251119  6:24:48
+2025-11-19  6:24:48 0 [Note] Reading of all Master_info entries succeeded
+2025-11-19  6:24:48 0 [Note] Added new Master_info '' to hash table
+2025-11-19  6:24:48 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2025-11-19  6:25:05 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2025-11-19  6:25:05 0 [Note] Event Scheduler: Purging the queue. 0 events
+2025-11-19  6:25:05 0 [Note] InnoDB: FTS optimize thread exiting.
+2025-11-19  6:25:05 0 [Note] InnoDB: Starting shutdown...
+2025-11-19  6:25:05 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2025-11-19  6:25:05 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2025-11-19  6:25:05 0 [Note] InnoDB: Buffer pool(s) dump completed at 251119  6:25:05
+2025-11-19  6:25:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2025-11-19  6:25:06 0 [Note] InnoDB: Shutdown completed; log sequence number 2153329; transaction id 3064
+2025-11-19  6:25:06 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2025-11-19  6:25:28 0 [Note] Starting MariaDB 10.4.32-MariaDB source revision c4143f909528e3fab0677a28631d10389354c491 as process 3916
+2025-11-19  6:25:28 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2025-11-19  6:25:28 0 [Note] InnoDB: Uses event mutexes
+2025-11-19  6:25:28 0 [Note] InnoDB: Compressed tables use zlib 1.3
+2025-11-19  6:25:28 0 [Note] InnoDB: Number of pools: 1
+2025-11-19  6:25:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2025-11-19  6:25:28 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2025-11-19  6:25:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2025-11-19  6:25:28 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2025-11-19  6:25:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2025-11-19  6:25:28 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2025-11-19  6:25:28 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2025-11-19  6:25:28 0 [Note] InnoDB: Waiting for purge to start
+2025-11-19  6:25:28 0 [Note] InnoDB: 10.4.32 started; log sequence number 2153329; transaction id 3063
+2025-11-19  6:25:28 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2025-11-19  6:25:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+2025-11-19  6:25:28 0 [Note] Server socket created on IP: '::'.
+2025-11-19  6:25:28 0 [Note] InnoDB: Buffer pool(s) load completed at 251119  6:25:28
+2025-11-19  6:25:28 0 [Note] Reading of all Master_info entries succeeded
+2025-11-19  6:25:28 0 [Note] Added new Master_info '' to hash table
+2025-11-19  6:25:28 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.32-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution

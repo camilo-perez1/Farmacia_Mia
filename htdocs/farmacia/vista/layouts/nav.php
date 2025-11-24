@@ -53,7 +53,7 @@
       <!-- Sidebar user (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="../img/avatar04.png" class="img-circle elevation-2" alt="User Image">
+          <img id="avatar4" src="../img/avatar04.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
             <a href="#" class="d-block">    
@@ -71,10 +71,18 @@
                with font-awesome or any other icon font library -->
          <li class="nav-header">Usuario</li>
           <li class="nav-item">
-            <a href="../vista/editar_datos_personales.php" class="nav-link">
+            <a href="editar_datos_personales.php" class="nav-link">
               <i class="nav-icon far fa-user-cog"></i>
               <p>
                 Datos personales
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="adm_usuario.php" class="nav-link">
+              <i class="nav-icon far fa-users"></i>
+              <p>
+                Gestion Usuario
               </p>
             </a>
           </li>
@@ -92,5 +100,5 @@
       </nav>
       <!-- /.sidebar-menu -->
     </div>
-    <!-- /.sidebar -->
-  </aside>
+    <!-- /.sidebar -->
+  </aside>

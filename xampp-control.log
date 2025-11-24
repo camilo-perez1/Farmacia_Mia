@@ -1,0 +1,116 @@
+17:12:09  [main] 	Initializing Control Panel
+17:12:09  [main] 	Windows Version:  Enterprise  64-bit
+17:12:09  [main] 	XAMPP Version: 8.2.12
+17:12:09  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+17:12:09  [main] 	Running with Administrator rights - good!
+17:12:09  [main] 	XAMPP Installation Directory: "c:\xampp\"
+17:12:09  [main] 	Checking for prerequisites
+17:12:10  [main] 	All prerequisites found
+17:12:10  [main] 	Initializing Modules
+17:12:10  [main] 	Enabling autostart for module "Apache"
+17:12:10  [main] 	Enabling autostart for module "MySQL"
+17:12:10  [main] 	Starting Check-Timer
+17:12:10  [main] 	Control Panel Ready
+17:12:10  [Apache] 	Autostart active: starting...
+17:12:10  [Apache] 	Attempting to start Apache service...
+17:12:11  [mysql] 	Autostart active: starting...
+17:12:11  [mysql] 	Attempting to start MySQL service...
+17:12:11  [Apache] 	Status change detected: running
+17:12:11  [mysql] 	Status change detected: running
+17:12:13  [mysql] 	Attempting to stop MySQL service...
+17:12:15  [mysql] 	Status change detected: stopped
+17:12:16  [Apache] 	Attempting to stop Apache service...
+17:12:19  [Apache] 	Status change detected: stopped
+17:13:01  [Apache] 	Attempting to start Apache service...
+17:13:02  [Apache] 	Status change detected: running
+17:13:02  [mysql] 	Attempting to start MySQL service...
+17:13:03  [mysql] 	Status change detected: running
+19:24:42  [main] 	Deinitializing Modules
+19:24:42  [main] 	Deinitializing Control Panel
+
+16:37:16  [main] 	Initializing Control Panel
+16:37:16  [main] 	Windows Version:  Enterprise  64-bit
+16:37:16  [main] 	XAMPP Version: 8.2.12
+16:37:16  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+16:37:16  [main] 	Running with Administrator rights - good!
+16:37:16  [main] 	XAMPP Installation Directory: "c:\xampp\"
+16:37:16  [main] 	Checking for prerequisites
+16:37:16  [main] 	All prerequisites found
+16:37:16  [main] 	Initializing Modules
+16:37:16  [main] 	Starting Check-Timer
+16:37:16  [main] 	Control Panel Ready
+16:37:23  [Apache] 	Installing service...
+16:37:24  [Apache] 	Successful!
+16:37:26  [mysql] 	Installing service...
+16:37:26  [mysql] 	Successful!
+16:37:43  [Apache] 	Attempting to start Apache service...
+16:37:45  [Apache] 	Status change detected: running
+16:37:47  [mysql] 	Attempting to start MySQL service...
+16:37:47  [mysql] 	Status change detected: running
+17:11:44  [mysql] 	Status change detected: stopped
+17:11:44  [mysql] 	Error: MySQL shutdown unexpectedly.
+17:11:44  [mysql] 	This may be due to a blocked port, missing dependencies, 
+17:11:44  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+17:11:44  [mysql] 	Press the Logs button to view error logs and check
+17:11:44  [mysql] 	the Windows Event Viewer for more clues
+17:11:44  [mysql] 	If you need more help, copy and post this
+17:11:44  [mysql] 	entire log window on the forums
+17:12:05  [Apache] 	Status change detected: stopped
+17:12:05  [Apache] 	Error: Apache shutdown unexpectedly.
+17:12:05  [Apache] 	This may be due to a blocked port, missing dependencies, 
+17:12:05  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+17:12:05  [Apache] 	Press the Logs button to view error logs and check
+17:12:05  [Apache] 	the Windows Event Viewer for more clues
+17:12:05  [Apache] 	If you need more help, copy and post this
+17:12:05  [Apache] 	entire log window on the forums
+17:12:11  [Apache] 	Status change detected: running
+17:12:11  [mysql] 	Status change detected: running
+17:12:15  [mysql] 	Status change detected: stopped
+17:12:15  [mysql] 	Error: MySQL shutdown unexpectedly.
+17:12:15  [mysql] 	This may be due to a blocked port, missing dependencies, 
+17:12:15  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+17:12:15  [mysql] 	Press the Logs button to view error logs and check
+17:12:15  [mysql] 	the Windows Event Viewer for more clues
+17:12:15  [mysql] 	If you need more help, copy and post this
+17:12:15  [mysql] 	entire log window on the forums
+17:12:19  [Apache] 	Status change detected: stopped
+17:12:19  [Apache] 	Error: Apache shutdown unexpectedly.
+17:12:19  [Apache] 	This may be due to a blocked port, missing dependencies, 
+17:12:19  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+17:12:19  [Apache] 	Press the Logs button to view error logs and check
+17:12:19  [Apache] 	the Windows Event Viewer for more clues
+17:12:19  [Apache] 	If you need more help, copy and post this
+17:12:19  [Apache] 	entire log window on the forums
+17:13:02  [Apache] 	Status change detected: running
+17:13:03  [mysql] 	Status change detected: running
+19:24:42  [main] 	Deinitializing Modules
+19:24:42  [main] 	Deinitializing Control Panel
+
+10:20:52  [main] 	Initializing Control Panel
+10:20:52  [main] 	Windows Version:  Enterprise  64-bit
+10:20:52  [main] 	XAMPP Version: 8.2.12
+10:20:52  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+10:20:52  [main] 	You are not running with administrator rights! This will work for
+10:20:52  [main] 	most application stuff but whenever you do something with services
+10:20:52  [main] 	there will be a security dialogue or things will break! So think 
+10:20:52  [main] 	about running this application with administrator rights!
+10:20:52  [main] 	XAMPP Installation Directory: "c:\xampp\"
+10:20:52  [main] 	Checking for prerequisites
+10:20:55  [main] 	All prerequisites found
+10:20:55  [main] 	Initializing Modules
+10:20:55  [Apache] 	XAMPP Apache Service is already running on port 80
+10:20:55  [Apache] 	XAMPP Apache Service is already running on port 443
+10:20:55  [mysql] 	XAMPP MySQL Service is already running on port 3306
+10:20:55  [main] 	Enabling autostart for module "Apache"
+10:20:55  [main] 	Enabling autostart for module "MySQL"
+10:20:55  [main] 	Starting Check-Timer
+10:20:55  [main] 	Control Panel Ready
+10:20:56  [Apache] 	Autostart aborted: Apache is already running
+10:20:56  [mysql] 	Autostart aborted: MySQL is already running
+12:49:18  [Apache] 	Attempting to stop Apache service...
+12:49:19  [mysql] 	Attempting to stop MySQL service...
+12:49:25  [Apache] 	Status change detected: stopped
+12:49:26  [mysql] 	Status change detected: stopped
+13:02:10  [main] 	Deinitializing Modules
+13:02:10  [main] 	Deinitializing Control Panel
+
