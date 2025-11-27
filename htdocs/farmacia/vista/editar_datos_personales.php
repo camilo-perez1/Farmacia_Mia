@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-if ($_SESSION['us_tipo'] == 1) {
+if ($_SESSION['us_tipo'] == 1 || $_SESSION['us_tipo'] ==3){
     
 
     
@@ -30,7 +30,9 @@ if ($_SESSION['us_tipo'] == 1) {
           <img id="avatar3" src="../img/avatar04.png" class="profile-user-img img-fluid img-circle">
         </div>
         <div class="text-center">
-          <b><?php echo $_SESSION['nombre_us']; ?></b>
+          <b>
+            <?php echo $_SESSION['nombre_us']; ?>
+          </b>
         </div>
         <div id="update" class="alert alert-success text-center" style="display:none;">
           <span><i class="fas fa-check m-1"></i>Se cambió password correctamente</span>
@@ -51,11 +53,12 @@ if ($_SESSION['us_tipo'] == 1) {
             </div>
             <input id="newpass" type="password" class="form-control" placeholder="Ingrese password nueva" required>
           </div>
-        </form>
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Cerrar</button>
         <button type="submit" form="form-pass" class="btn bg-gradient-primary">Guardar</button>
+        </form>
       </div>
     </div>
   </div>
@@ -92,8 +95,9 @@ if ($_SESSION['us_tipo'] == 1) {
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" data-dismiss="modal" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         <button type="submit" form="form-photo" class="btn btn-primary">Guardar</button>
+        
       </div>
     </div>
   </div>

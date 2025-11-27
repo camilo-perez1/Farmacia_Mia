@@ -117,4 +117,58 @@ if ($_POST['funcion'] == 'cambiar_foto') {
         echo $jsonstring;
     }
 }
+
+
+if ($_POST['funcion'] == 'buscar_usuarios_adm') {
+    $json = array();
+    $fecha_actual = new DateTime();
+    $usuario->buscar();
+    foreach ($usuario->objetos as $objeto) {
+        $nacimiento = new DateTime($objeto->edad);
+        $edad = $nacimiento->diff($fecha_actual);
+        $edad_years = $edad->y;
+        $json[] = array(
+            'id' => $objeto->id_usuario,
+            'nombre' => $objeto->nombre_us,
+            'apellidos' => $objeto->apellidos_us,
+            'edad' => $edad_years,
+            'dni' => $objeto->dni_us,
+            'tipo' => $objeto->nombre_tipo,
+            'telefono' => $objeto->telefono_us,
+            'residencia' => $objeto->residencia_us,
+            'correo' => $objeto->correo_us,
+            'sexo' => $objeto->sexo_us,
+            'adicional' => $objeto->adicional_us, 
+            'avatar' => '../img/'.$objeto->avatar,
+            'tipo_usuario'=> $objeto->us_tipo
+        );
+    }  
+    $jsonstring = json_encode($json);
+    echo $jsonstring;
+}
+if ($_POST['funcion'] == 'crear_usuario') {
+    $nombre = $_POST['nombre'];
+    $apellido = $_POST['apellido'];
+    $edad = $_POST['edad'];
+    $dni = $_POST['dni'];
+    $pass = $_POST['pass'];
+    $tipo=2;
+    $avatar='default.png';
+    $usuario->crear($nombre,$apellido,$edad,$dni,$pass,$tipo,$avatar);
+}
+if ($_POST['funcion'] == 'ascender') {
+    $pass=$_POST['pass'];
+    $id_ascendido=$_POST['id_usuario'];
+    $usuario->ascender($pass,$id_ascendido,$id_usuario);
+}
+if ($_POST['funcion'] == 'descender') {
+    $pass=$_POST['pass'];
+    $id_descendido=$_POST['id_usuario'];
+    $usuario->descender($pass,$id_descendido,$id_usuario);
+}
+if ($_POST['funcion'] == 'borrar_usuario') {
+    $pass=$_POST['pass'];
+    $id_borrado=$_POST['id_usuario'];
+    $usuario->borrar($pass,$id_borrado,$id_usuario);
+}
 ?>

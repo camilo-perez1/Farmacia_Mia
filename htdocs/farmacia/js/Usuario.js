@@ -90,7 +90,7 @@ $(document).ready(function() {
                     if (response.status == 'success') {
                         $('#status').hide('slow').show(1000).hide(2000);
                         $('#form-usuario').trigger('reset');
-                        edit = false;
+                        edit = false; 
                         buscar_usuario(id_usuario);
                     }
                 },
