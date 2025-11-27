@@ -2,7 +2,7 @@
 ob_clean();
 header('Content-Type: application/json; charset=utf-8');
 error_reporting(0);
-//xvxvxvxvxvxvxvxvxvxvxvxvxvxx
+
 include_once '../modelo/Usuario.php';
 $usuario = new Usuario();
 session_start();
