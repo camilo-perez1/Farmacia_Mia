@@ -26,11 +26,9 @@ sweetalert2
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../../index3.html" class="nav-link">Home</a>
+        <a href="../vista/adm_catalogo.php" class="nav-link">Home</a>
       </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li>
+      
     </ul>
 
 
@@ -92,7 +90,35 @@ sweetalert2
               </p>
             </a>
           </li>
+          <li class="nav-header">Ventas</li>
+          
+          <li class="nav-item">
+            <a href="adm_venta.php" class="nav-link">
+              <i class="nav-icon fas fa-cash-register"></i>
+              <p>
+                Nueva Venta
+              </p>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="adm_venta_historial.php" class="nav-link"> <i class="nav-icon fas fa-file-invoice-dollar"></i>
+              <p>
+                Historial Ventas
+              </p>
+            </a>
+          </li>
+
+        </ul> </nav>
+          ```
           <li class="nav-header">Almacen</li>
+          <li class="nav-item">
+            <a href="adm_proveedor.php" class="nav-link">
+              <i class="nav-icon fas fa-truck"></i> <p>
+                Gestión Proveedor
+              </p>
+            </a>
+          </li>
           <li class="nav-item">
             <a href="adm_producto.php" class="nav-link">
               <i class="nav-icon fas fa-pills"></i>
@@ -109,6 +135,24 @@ sweetalert2
               </p>
             </a>
           </li>
+          <!-- AGREGAR ESTO: GESTIÓN DE LOTES -->
+          <li class="nav-item">
+            <a href="adm_lote.php" class="nav-link">
+              <i class="nav-icon fas fa-cubes"></i> <!-- Icono de cubos/lotes -->
+              <p>Gestión Lote</p>
+            </a>
+          </li>
+          <li class="nav-item">
+              <a href="adm_reporte_venta.php" class="nav-link">
+                  <i class="nav-icon fas fa-chart-line"></i>
+                  <p>
+                      Reporte de Ventas
+                  </p>
+              </a>
+          </li>
+          <!-- FIN DEL BLOQUE NUEVO -->
+
+          
           
         </ul>
       </nav>

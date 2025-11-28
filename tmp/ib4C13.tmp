@@ -1,1 +1,1 @@
-`farmaciasistema`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`prod_lab`) REFERENCES `laboratorio` (`id_laboratorio`)
+`farmaciasistema`.`venta_producto`, CONSTRAINT `venta_producto_ibfk_1` FOREIGN KEY (`producto_id_producto`) REFERENCES `producto` (`id_producto`)
