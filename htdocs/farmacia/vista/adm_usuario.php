@@ -62,7 +62,7 @@ if ($_SESSION['us_tipo'] == 1 || $_SESSION['us_tipo'] ==3) {
     <div class="modal-content">
       <div class="card card-success">
         <div class="card-header">
-          <h3 class="card-title">Crear Usuario</h3>
+          <h3 class="card-title">Crear Empleado</h3>
           <button data-dismiss="modal" aria-label="close" class="close">
             <span aria-hiddem="true">&times;</span>
           </button>
@@ -119,9 +119,9 @@ if ($_SESSION['us_tipo'] == 1 || $_SESSION['us_tipo'] ==3) {
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Gestion Usuarios 
+            <h1>Gestion Empleados 
             <button type="button" id="button-crear" data-toggle="modal" data-target="#crearusuario" 
-            class="btn bg-gradient-primary ml-2">Crear usuario</button></h1>
+            class="btn bg-gradient-primary ml-2">Crear Empleado</button></h1>
 
 
             <input type="hidden" id="tipo_usuario" value="<?php echo $_SESSION['us_tipo']?>">
@@ -129,7 +129,7 @@ if ($_SESSION['us_tipo'] == 1 || $_SESSION['us_tipo'] ==3) {
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../vista/adm_catalogo.php">Home</a></li>
-              <li class="breadcrumb-item active">Gestion Usuario</li>
+              <li class="breadcrumb-item active">Gestion Empleado</li>
             </ol>
           </div>
         </div>
@@ -140,7 +140,7 @@ if ($_SESSION['us_tipo'] == 1 || $_SESSION['us_tipo'] ==3) {
      <div class="container-fluid">
         <div class="card card-success">
             <div class="card-header">
-                <h3 class="card-title">Buscar usuario</h3>
+                <h3 class="card-title">Buscar empleado</h3>
                 <div class="input-group">
                   <input type="text" id="buscar"class="form-control float-left" placeholder="Ingrese nombere de usuario">
                 <div class="input-group-append">

@@ -1,1 +1,170 @@
- PMA_token |s:32:"30706535343f2b343c582b747d232c68"; HMAC_secret |s:16:"!?=(/T"JeGq?[rf]";browser_access_time|a:6:{s:7:"default";i:1764310852;s:36:"13ab1ea2-48f1-a65f-595a-38010b120a86";i:1764297841;s:36:"5a6daa98-9e85-fe0d-bd58-015f531b6a4f";i:1764301012;s:36:"029a6406-a165-a617-dd34-08e404ae7a9f";i:1764307521;s:36:"0dbd276c-a73f-ee10-6603-af63f08956e4";i:1764309557;s:36:"d81ab36a-6236-1dca-7160-26931c4dfbcb";i:1764312145;}relation|a:1:{i:1;a:41:{s:7:"version";s:5:"5.2.1";s:4:"user";s:4:"root";s:2:"db";s:10:"phpmyadmin";s:8:"bookmark";s:13:"pma__bookmark";s:15:"central_columns";s:20:"pma__central_columns";s:11:"column_info";s:16:"pma__column_info";s:17:"designer_settings";s:22:"pma__designer_settings";s:16:"export_templates";s:21:"pma__export_templates";s:8:"favorite";s:13:"pma__favorite";s:7:"history";s:12:"pma__history";s:16:"navigationhiding";s:21:"pma__navigationhiding";s:9:"pdf_pages";s:14:"pma__pdf_pages";s:6:"recent";s:11:"pma__recent";s:8:"relation";s:13:"pma__relation";s:13:"savedsearches";s:18:"pma__savedsearches";s:12:"table_coords";s:17:"pma__table_coords";s:10:"table_info";s:15:"pma__table_info";s:13:"table_uiprefs";s:18:"pma__table_uiprefs";s:8:"tracking";s:13:"pma__tracking";s:10:"userconfig";s:15:"pma__userconfig";s:10:"usergroups";s:15:"pma__usergroups";s:5:"users";s:10:"pma__users";s:12:"bookmarkwork";b:1;s:8:"mimework";b:1;s:18:"centralcolumnswork";b:1;s:8:"commwork";b:1;s:9:"menuswork";b:1;s:20:"designersettingswork";b:1;s:11:"displaywork";b:1;s:19:"exporttemplateswork";b:1;s:12:"favoritework";b:1;s:7:"navwork";b:1;s:7:"pdfwork";b:1;s:10:"recentwork";b:1;s:7:"relwork";b:1;s:17:"savedsearcheswork";b:1;s:11:"historywork";b:1;s:12:"trackingwork";b:1;s:11:"uiprefswork";b:1;s:14:"userconfigwork";b:1;s:8:"allworks";b:1;}}tmpval|a:16:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:10:{i:0;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:5:"venta";}i:1;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";}i:2;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:9:"proveedor";}i:3;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";}i:4;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"detalle_venta";}i:5;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";}i:6;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";}i:7;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:12:"presentacion";}i:8;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:11:"laboratorio";}i:9;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"tipo_us";}}}s:13:"table_uiprefs";a:1:{i:1;a:1:{s:15:"farmaciasistema";a:9:{s:7:"usuario";a:0:{}s:13:"tipo_producto";a:0:{}s:11:"laboratorio";a:0:{}s:12:"presentacion";a:0:{}s:8:"producto";a:0:{}s:5:"venta";a:0:{}s:13:"detalle_venta";a:0:{}s:4:"lote";a:0:{}s:9:"proveedor";a:0:{}}}}s:5:"query";a:9:{s:32:"2d39fd9d1b6ace865cd83a8dd8ffa63f";a:8:{s:3:"sql";s:27:"SELECT * FROM `laboratorio`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"de5b0e4b06c7753ee2d2fd7c47c1440c";a:8:{s:3:"sql";s:28:"SELECT * FROM `presentacion`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"f939afbbf47436823adf43ef48e087b3";a:8:{s:3:"sql";s:23:"SELECT * FROM `usuario`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"d1e9bfcf5b54ab3ddd572711fba3bab7";a:8:{s:3:"sql";s:29:"SELECT * FROM `tipo_producto`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"be2232a9eb5dc2001c971e352dbfdbb2";a:8:{s:3:"sql";s:29:"SELECT * FROM `detalle_venta`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2a888e0f53563793fa41d72f049a79c8";a:8:{s:3:"sql";s:24:"SELECT * FROM `producto`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"8973e2b33c5527b2cd69a7cd2143bb54";a:8:{s:3:"sql";s:25:"SELECT * FROM `proveedor`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"dfbd874af10b370153c82e45287d4f27";a:8:{s:3:"sql";s:20:"SELECT * FROM `lote`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"a93dd0792a47b4444084971b1c14e99d";a:8:{s:3:"sql";s:21:"SELECT * FROM `venta`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:20:"possible_as_geometry";b:1;s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:15:"farmaciasistema";}two_factor_check|b:1;cache|a:2:{s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1764305154;s:14:"userprefs_type";s:2:"db";s:12:"config_mtime";i:1447170388;s:9:"userprefs";a:3:{s:7:"Console";a:2:{s:4:"Mode";s:4:"show";s:6:"Height";d:104.96388999999999;}s:4:"lang";s:2:"es";s:15:"NavigationWidth";i:222;}}s:13:"server_1_root";a:17:{s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:8:"Examinar";s:9:"structure";s:10:"Estructura";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Buscar";s:6:"insert";s:8:"Insertar";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:10:"privileges";s:11:"Privilegios";s:9:"operation";s:11:"Operaciones";s:8:"tracking";s:11:"Seguimiento";s:8:"triggers";s:12:"Disparadores";}s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:14:"Bases de datos";s:3:"sql";s:3:"SQL";s:6:"status";s:13:"Estado actual";s:6:"rights";s:8:"Usuarios";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:8:"settings";s:14:"Configuración";s:6:"binlog";s:16:"Registro binario";s:11:"replication";s:12:"Replicación";s:4:"vars";s:9:"Variables";s:7:"charset";s:20:"Juegos de caracteres";s:7:"plugins";s:12:"Complementos";s:6:"engine";s:7:"Motores";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:10:"Estructura";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Buscar";s:5:"query";s:20:"Generar una consulta";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:9:"operation";s:11:"Operaciones";s:10:"privileges";s:11:"Privilegios";s:8:"routines";s:7:"Rutinas";s:6:"events";s:7:"Eventos";s:8:"triggers";s:12:"Disparadores";s:8:"tracking";s:11:"Seguimiento";s:8:"designer";s:10:"Diseñador";s:15:"central_columns";s:18:"Columnas centrales";}s:12:"is_superuser";b:1;s:14:"mysql_cur_user";s:14:"root@localhost";s:12:"is_grantuser";b:1;}}ConfigFile1|a:3:{s:15:"NavigationWidth";i:222;s:7:"Console";a:2:{s:4:"Mode";s:4:"show";s:6:"Height";d:104.96388999999999;}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}is_multi_query|b:0;sql_history|a:25:{i:0;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";s:8:"sqlquery";s:29:"SELECT * FROM `tipo_producto`";}i:1;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";s:8:"sqlquery";s:29:"SELECT * FROM `tipo_producto`";}i:2;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:11:"laboratorio";s:8:"sqlquery";s:27:"SELECT * FROM `laboratorio`";}i:3;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";s:8:"sqlquery";s:29:"SELECT * FROM `tipo_producto`";}i:4;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:12:"presentacion";s:8:"sqlquery";s:28:"SELECT * FROM `presentacion`";}i:5;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:6;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:7;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:8;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:9;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:10;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:5:"venta";s:8:"sqlquery";s:21:"SELECT * FROM `venta`";}i:11;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:12;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:13;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"detalle_venta";s:8:"sqlquery";s:29:"SELECT * FROM `detalle_venta`";}i:14;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:15;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"detalle_venta";s:8:"sqlquery";s:29:"SELECT * FROM `detalle_venta`";}i:16;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";s:8:"sqlquery";s:29:"SELECT * FROM `tipo_producto`";}i:17;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"detalle_venta";s:8:"sqlquery";s:29:"SELECT * FROM `detalle_venta`";}i:18;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:9:"proveedor";s:8:"sqlquery";s:25:"SELECT * FROM `proveedor`";}i:19;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:20;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:9:"proveedor";s:8:"sqlquery";s:25:"SELECT * FROM `proveedor`";}i:21;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:22;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:23;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:24;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:5:"venta";s:8:"sqlquery";s:21:"SELECT * FROM `venta`";}}debug|a:0:{}flashMessages|a:0:{}__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}errors|a:0:{}
+ PMA_token |s:32:"30706535343f2b343c582b747d232c68"; HMAC_secret |s:16:"!?=(/T"JeGq?[rf]";browser_access_time|a:11:{s:7:"default";i:1764365350;s:36:"13ab1ea2-48f1-a65f-595a-38010b120a86";i:1764297841;s:36:"5a6daa98-9e85-fe0d-bd58-015f531b6a4f";i:1764301012;s:36:"029a6406-a165-a617-dd34-08e404ae7a9f";i:1764307521;s:36:"0dbd276c-a73f-ee10-6603-af63f08956e4";i:1764309557;s:36:"d81ab36a-6236-1dca-7160-26931c4dfbcb";i:1764312145;s:36:"5e44e606-e88d-c06e-c367-2520cabadb03";i:1764332561;s:36:"6a835b87-3874-05d0-b862-4aac283c9997";i:1764350935;s:36:"41211295-296a-1cb7-33a5-e1527350e783";i:1764353798;s:36:"e800d00d-5dc0-2b21-479c-c4fab65bd97c";i:1764361865;s:36:"8aca4d55-92e0-06bd-f844-fbf954a42e53";i:1764428222;}relation|a:1:{i:1;a:41:{s:7:"version";s:5:"5.2.1";s:4:"user";s:4:"root";s:2:"db";s:10:"phpmyadmin";s:8:"bookmark";s:13:"pma__bookmark";s:15:"central_columns";s:20:"pma__central_columns";s:11:"column_info";s:16:"pma__column_info";s:17:"designer_settings";s:22:"pma__designer_settings";s:16:"export_templates";s:21:"pma__export_templates";s:8:"favorite";s:13:"pma__favorite";s:7:"history";s:12:"pma__history";s:16:"navigationhiding";s:21:"pma__navigationhiding";s:9:"pdf_pages";s:14:"pma__pdf_pages";s:6:"recent";s:11:"pma__recent";s:8:"relation";s:13:"pma__relation";s:13:"savedsearches";s:18:"pma__savedsearches";s:12:"table_coords";s:17:"pma__table_coords";s:10:"table_info";s:15:"pma__table_info";s:13:"table_uiprefs";s:18:"pma__table_uiprefs";s:8:"tracking";s:13:"pma__tracking";s:10:"userconfig";s:15:"pma__userconfig";s:10:"usergroups";s:15:"pma__usergroups";s:5:"users";s:10:"pma__users";s:12:"bookmarkwork";b:1;s:8:"mimework";b:1;s:18:"centralcolumnswork";b:1;s:8:"commwork";b:1;s:9:"menuswork";b:1;s:20:"designersettingswork";b:1;s:11:"displaywork";b:1;s:19:"exporttemplateswork";b:1;s:12:"favoritework";b:1;s:7:"navwork";b:1;s:7:"pdfwork";b:1;s:10:"recentwork";b:1;s:7:"relwork";b:1;s:17:"savedsearcheswork";b:1;s:11:"historywork";b:1;s:12:"trackingwork";b:1;s:11:"uiprefswork";b:1;s:14:"userconfigwork";b:1;s:8:"allworks";b:1;}}tmpval|a:16:{s:14:"favoriteTables";a:1:{i:1;a:0:{}}s:12:"recentTables";a:1:{i:1;a:10:{i:0;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";}i:1;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";}i:2;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:11:"laboratorio";}i:3;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:5:"venta";}i:4;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";}i:5;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:9:"proveedor";}i:6;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"detalle_venta";}i:7;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";}i:8;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:12:"presentacion";}i:9;a:2:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"tipo_us";}}}s:13:"table_uiprefs";a:1:{i:1;a:1:{s:15:"farmaciasistema";a:9:{s:7:"usuario";a:0:{}s:13:"tipo_producto";a:0:{}s:11:"laboratorio";a:0:{}s:12:"presentacion";a:0:{}s:8:"producto";a:0:{}s:5:"venta";a:0:{}s:13:"detalle_venta";a:0:{}s:4:"lote";a:0:{}s:9:"proveedor";a:0:{}}}}s:5:"query";a:10:{s:32:"de5b0e4b06c7753ee2d2fd7c47c1440c";a:8:{s:3:"sql";s:28:"SELECT * FROM `presentacion`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"d1e9bfcf5b54ab3ddd572711fba3bab7";a:8:{s:3:"sql";s:29:"SELECT * FROM `tipo_producto`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"be2232a9eb5dc2001c971e352dbfdbb2";a:8:{s:3:"sql";s:29:"SELECT * FROM `detalle_venta`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"8973e2b33c5527b2cd69a7cd2143bb54";a:8:{s:3:"sql";s:25:"SELECT * FROM `proveedor`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"dfbd874af10b370153c82e45287d4f27";a:8:{s:3:"sql";s:20:"SELECT * FROM `lote`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"a93dd0792a47b4444084971b1c14e99d";a:8:{s:3:"sql";s:21:"SELECT * FROM `venta`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"33385b9da3a2e7708334b13360f8efae";a:8:{s:3:"sql";s:3643:"INSERT INTO producto (nombre, concentracion, adicional, precio, prod_lab, prod_tip, prod_pre) VALUES 
+-- Analgésicos y Antiinflamatorios (Asumiendo Presentación ID 1: Tableta)
+('Paracetamol', '500 mg', 'Caja x 10', 15.00, 1, 1, 1),
+('Ibuprofeno', '400 mg', 'Capsulas Blandas', 22.50, 2, 1, 1),
+('Naproxeno', '550 mg', 'Forte', 30.00, 3, 1, 1),
+('Diclofenaco', '50 mg', 'Grageas', 18.00, 1, 1, 1),
+('Ketorolaco', '10 mg', 'Sublingual', 45.00, 4, 1, 1),
+('Aspirina', '100 mg', 'Cardio', 12.00, 5, 1, 1),
+('Meloxicam', '15 mg', 'Caja x 10', 35.00, 2, 1, 1),
+('Celecoxib', '200 mg', 'Caja x 10', 50.00, 3, 1, 1),
+('Tramadol', '50 mg', 'Caja x 10', 60.00, 6, 1, 1),
+('Indometacina', '25 mg', 'Caja x 30', 40.00, 1, 1, 1),
+
+-- Antibióticos (Asumiendo Presentación ID 1: Tableta/Cápsula y ID 2: Suspensión)
+('Amoxicilina', '500 mg', 'Capsulas', 25.00, 2, 2, 1),
+('Amoxicilina + Ac. Clav.', '875/125 mg', 'Tabletas Recubiertas', 70.00, 3, 2, 1),
+('Azitromicina', '500 mg', 'Caja x 3', 80.00, 4, 2, 1),
+('Ciprofloxacino', '500 mg', 'Generico', 20.00, 1, 2, 1),
+('Cefalexina', '500 mg', 'Capsulas', 35.00, 5, 2, 1),
+('Doxiciclina', '100 mg', 'Caja x 10', 45.00, 2, 2, 1),
+('Clindamicina', '300 mg', 'Caja x 20', 95.00, 6, 2, 1),
+('Eritromicina', '250 mg', 'Suspension 60ml', 55.00, 3, 2, 2), -- Jarabe
+('Sulfametoxazol + Trimet.', '200/40 mg', 'Suspension Pediatrica', 40.00, 1, 2, 2), -- Jarabe
+
+-- Respiratorio y Antialérgicos (Mezcla Tabletas y Jarabes)
+('Loratadina', '10 mg', 'Tabletas', 10.00, 4, 3, 1),
+('Cetirizina', '10 mg', 'Tabletas', 12.00, 2, 3, 1),
+('Desloratadina', '5 mg', 'Tabletas Recubiertas', 30.00, 5, 3, 1),
+('Ambroxol', '15 mg/5ml', 'Jarabe 120ml', 45.00, 3, 3, 2), -- Jarabe
+('Dextrometorfano', '10 mg/5ml', 'Jarabe Tos Seca', 50.00, 1, 3, 2), -- Jarabe
+('Salbutamol', '100 mcg', 'Inhalador', 120.00, 6, 3, 3), -- Asumiendo 3 como "Otro/Inhalador"
+('Fexofenadina', '120 mg', 'Caja x 10', 55.00, 4, 3, 1),
+('Montelukast', '10 mg', 'Caja x 30', 150.00, 2, 3, 1),
+
+-- Gástricos (Tabletas y Suspensiones)
+('Omeprazol', '20 mg', 'Capsulas', 15.00, 1, 4, 1),
+('Lansoprazol', '30 mg', 'Capsulas', 35.00, 5, 4, 1),
+('Esomeprazol', '40 mg', 'Caja x 14', 85.00, 3, 4, 1),
+('Ranitidina', '150 mg', 'Tabletas', 20.00, 2, 4, 1),
+('Hidroxido de Aluminio', 'Suspensión', 'Frasco 200ml', 40.00, 4, 4, 2), -- Jarabe
+('Subsalicilato de Bismuto', '262 mg', 'Suspension', 50.00, 6, 4, 2), -- Jarabe
+
+-- Vitaminas y Suplementos (Tabletas e Inyectables)
+('Vitamina C', '1 g', 'Tabletas Efervescentes', 30.00, 1, 5, 1),
+('Complejo B', 'Forte', 'Inyectable 2ml', 45.00, 2, 5, 3), -- Inyectable
+('Neurobion', '25000', 'Ampolla', 70.00, 3, 5, 3), -- Inyectable
+('Calcio + Vitamina D', '600 mg', 'Frasco x 30', 110.00, 5, 5, 1),
+('Acido Folico', '5 mg', 'Tabletas', 15.00, 4, 5, 1),
+('Vitamina E', '400 UI', 'Capsulas Blandas', 60.00, 6, 5, 1),
+('Hierro', 'Jarabe', 'Frasco 120ml', 35.00, 1, 5, 2), -- Jarabe
+
+-- Dermatológicos (Asumiendo Presentación ID 4: Crema/Tópico)
+('Clotrimazol', '1%', 'Crema 20g', 25.00, 2, 5, 4), -- Crema
+('Betametasona', '0.05%', 'Crema 15g', 30.00, 3, 5, 4), -- Crema
+('Ketoconazol', '2%', 'Crema 30g', 40.00, 5, 5, 4), -- Crema
+('Oxido de Zinc', '10%', 'Pomada 50g', 20.00, 1, 5, 4), -- Crema
+('Mupirocina', '2%', 'Ungüento 15g', 85.00, 4, 5, 4), -- Crema
+
+-- Crónicos y Varios
+('Losartan', '50 mg', 'Caja x 30', 40.00, 6, 4, 1),
+('Enalapril', '20 mg', 'Caja x 30', 35.00, 2, 4, 1),
+('Atorvastatina', '20 mg', 'Caja x 10', 60.00, 3, 4, 1),
+('Metformina', '850 mg', 'Tabletas', 25.00, 1, 4, 1),
+('Glibenclamida', '5 mg', 'Tabletas', 15.00, 5, 4, 1);";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2d39fd9d1b6ace865cd83a8dd8ffa63f";a:8:{s:3:"sql";s:27:"SELECT * FROM `laboratorio`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"2a888e0f53563793fa41d72f049a79c8";a:8:{s:3:"sql";s:24:"SELECT * FROM `producto`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}s:32:"f939afbbf47436823adf43ef48e087b3";a:8:{s:3:"sql";s:23:"SELECT * FROM `usuario`";s:12:"repeat_cells";i:100;s:8:"max_rows";i:25;s:3:"pos";i:0;s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;}}s:6:"pftext";s:1:"P";s:18:"relational_display";s:1:"K";s:9:"geoOption";s:4:"GEOM";s:14:"display_binary";b:1;s:12:"display_blob";b:0;s:19:"hide_transformation";b:0;s:3:"pos";i:0;s:8:"max_rows";i:25;s:12:"repeat_cells";i:100;s:20:"possible_as_geometry";b:1;s:18:"table_limit_offset";i:0;s:21:"table_limit_offset_db";s:15:"farmaciasistema";}two_factor_check|b:1;cache|a:3:{s:8:"server_1";a:4:{s:15:"userprefs_mtime";i:1764365344;s:14:"userprefs_type";s:2:"db";s:12:"config_mtime";i:1447170388;s:9:"userprefs";a:3:{s:7:"Console";a:2:{s:4:"Mode";s:4:"show";s:6:"Height";d:375.96067;}s:4:"lang";s:2:"es";s:15:"NavigationWidth";i:222;}}s:13:"server_1_root";a:17:{s:17:"is_create_db_priv";b:1;s:14:"is_reload_priv";b:1;s:12:"db_to_create";s:0:"";s:30:"dbs_where_create_table_allowed";a:1:{i:0;s:1:"*";}s:11:"dbs_to_test";b:0;s:9:"proc_priv";b:1;s:10:"table_priv";b:1;s:8:"col_priv";b:1;s:7:"db_priv";b:1;s:19:"profiling_supported";b:1;s:17:"menu-levels-table";a:11:{s:6:"browse";s:8:"Examinar";s:9:"structure";s:10:"Estructura";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Buscar";s:6:"insert";s:8:"Insertar";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:10:"privileges";s:11:"Privilegios";s:9:"operation";s:11:"Operaciones";s:8:"tracking";s:11:"Seguimiento";s:8:"triggers";s:12:"Disparadores";}s:11:"binary_logs";a:0:{}s:18:"menu-levels-server";a:13:{s:9:"databases";s:14:"Bases de datos";s:3:"sql";s:3:"SQL";s:6:"status";s:13:"Estado actual";s:6:"rights";s:8:"Usuarios";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:8:"settings";s:14:"Configuración";s:6:"binlog";s:16:"Registro binario";s:11:"replication";s:12:"Replicación";s:4:"vars";s:9:"Variables";s:7:"charset";s:20:"Juegos de caracteres";s:7:"plugins";s:12:"Complementos";s:6:"engine";s:7:"Motores";}s:14:"menu-levels-db";a:14:{s:9:"structure";s:10:"Estructura";s:3:"sql";s:3:"SQL";s:6:"search";s:6:"Buscar";s:5:"query";s:20:"Generar una consulta";s:6:"export";s:8:"Exportar";s:6:"import";s:8:"Importar";s:9:"operation";s:11:"Operaciones";s:10:"privileges";s:11:"Privilegios";s:8:"routines";s:7:"Rutinas";s:6:"events";s:7:"Eventos";s:8:"triggers";s:12:"Disparadores";s:8:"tracking";s:11:"Seguimiento";s:8:"designer";s:10:"Diseñador";s:15:"central_columns";s:18:"Columnas centrales";}s:12:"is_superuser";b:1;s:14:"mysql_cur_user";s:14:"root@localhost";s:12:"is_grantuser";b:1;}s:13:"version_check";a:2:{s:8:"response";s:411:"{
+    "version": "5.2.3",
+    "date": "2025-10-08",
+    "releases": [
+        {
+            "version": "5.2.3",
+            "date": "2025-10-08",
+            "php_versions": ">=7.2,<8.4",
+            "mysql_versions": ">=5.5"
+        },
+        {
+            "version": "4.9.11",
+            "date": "2023-02-08",
+            "php_versions": ">=5.5,<8.0",
+            "mysql_versions": ">=5.5"
+        }
+    ]
+}";s:9:"timestamp";i:1764345426;}}ConfigFile1|a:3:{s:15:"NavigationWidth";i:222;s:7:"Console";a:2:{s:4:"Mode";s:4:"show";s:6:"Height";d:375.96067;}s:7:"Servers";a:1:{i:1;a:2:{s:7:"only_db";s:0:"";s:7:"hide_db";s:0:"";}}}is_multi_query|b:0;sql_history|a:25:{i:0;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"tipo_producto";s:8:"sqlquery";s:29:"SELECT * FROM `tipo_producto`";}i:1;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:13:"detalle_venta";s:8:"sqlquery";s:29:"SELECT * FROM `detalle_venta`";}i:2;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:9:"proveedor";s:8:"sqlquery";s:25:"SELECT * FROM `proveedor`";}i:3;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:4;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:9:"proveedor";s:8:"sqlquery";s:25:"SELECT * FROM `proveedor`";}i:5;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:6;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:7;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:4:"lote";s:8:"sqlquery";s:20:"SELECT * FROM `lote`";}i:8;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:5:"venta";s:8:"sqlquery";s:21:"SELECT * FROM `venta`";}i:9;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:10;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:11;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:12;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:13;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:14;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:15;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:16;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:17;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:18;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:19;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:20;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:21;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:11:"laboratorio";s:8:"sqlquery";s:27:"SELECT * FROM `laboratorio`";}i:22;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:8:"producto";s:8:"sqlquery";s:24:"SELECT * FROM `producto`";}i:23;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}i:24;a:3:{s:2:"db";s:15:"farmaciasistema";s:5:"table";s:7:"usuario";s:8:"sqlquery";s:23:"SELECT * FROM `usuario`";}}debug|a:0:{}flashMessages|a:0:{}__upload_status|a:1:{s:7:"handler";s:47:"PhpMyAdmin\Plugins\Import\Upload\UploadNoplugin";}git_location|N;is_git_revision|b:0;Import_message|a:2:{s:7:"message";s:6868:"<div class="alert alert-danger" role="alert"><h1>Error</h1><p><strong>consulta SQL:</strong>  <a href="#" class="copyQueryBtn" data-text="INSERT INTO producto (nombre, concentracion, adicional, precio, prod_lab, prod_tip, prod_pre) VALUES 
+-- Analgésicos y Antiinflamatorios (Asumiendo Presentación ID 1: Tableta)
+(&#039;Paracetamol&#039;, &#039;500 mg&#039;, &#039;Caja x 10&#039;, 15.00, 1, 1, 1),
+(&#039;Ibuprofeno&#039;, &#039;400 mg&#039;, &#039;Capsulas Blandas&#039;, 22.50, 2, 1, 1),
+(&#039;Naproxeno&#039;, &#039;550 mg&#039;, &#039;Forte&#039;, 30.00, 3, 1, 1),
+(&#039;Diclofenaco&#039;, &#039;50 mg&#039;, &#039;Grageas&#039;, 18.00, 1, 1, 1),
+(&#039;Ketorolaco&#039;, &#039;10 mg&#039;, &#039;Sublingual&#039;, 45.00, 4, 1, 1),
+(&#039;Aspirina&#039;, &#039;100 mg&#039;, &#039;Cardio&#039;, 12.00, 5, 1, 1),
+(&#039;Meloxicam&#039;, &#039;15 mg&#039;, &#039;Caja x 10&#039;, 35.00, 2, 1, 1),
+(&#039;Celecoxib&#039;, &#039;200 mg&#039;, &#039;Caja x 10&#039;, 50.00, 3, 1, 1),
+(&#039;Tramadol&#039;, &#039;50 mg&#039;, &#039;Caja x 10&#039;, 60.00, 6, 1, 1),
+(&#039;Indometacina&#039;, &#039;25 mg&#039;, &#039;Caja x 30&#039;, 40.00, 1, 1, 1),
+
+-- Antibióticos (Asumiendo Presentación ID 1: Tableta/Cápsula y ID 2: Suspensión)
+(&#039;Amoxicilina&#039;, &#039;500 mg&#039;, &#039;Capsulas&#039;, 25.00, 2, 2, 1),
+(&#039;Amoxicilina + Ac. Clav.&#039;, &#039;875/125 mg&#039;, &#039;Tabletas Recubiertas&#039;, 70.00, 3, 2, 1),
+(&#039;Azitromicina&#039;, &#039;500 mg&#039;, &#039;Caja x 3&#039;, 80.00, 4, 2, 1),
+(&#039;Ciprofloxacino&#039;, &#039;500 mg&#039;, &#039;Generico&#039;, 20.00, 1, 2, 1),
+(&#039;Cefalexina&#039;, &#039;500 mg&#039;, &#039;Capsulas&#039;, 35.00, 5, 2, 1),
+(&#039;Doxiciclina&#039;, &#039;100 mg&#039;, &#039;Caja x 10&#039;, 45.00, 2, 2, 1),
+(&#039;Clindamicina&#039;, &#039;300 mg&#039;, &#039;Caja x 20&#039;, 95.00, 6, 2, 1),
+(&#039;Eritromicina&#039;, &#039;250 mg&#039;, &#039;Suspension 60ml&#039;, 55.00, 3, 2, 2), -- Jarabe
+(&#039;Sulfametoxazol + Trimet.&#039;, &#039;200/40 mg&#039;, &#039;Suspension Pediatrica&#039;, 40.00, 1, 2, 2), -- Jarabe
+
+-- Respiratorio y Antialérgicos (Mezcla Tabletas y Jarabes)
+(&#039;Loratadina&#039;, &#039;10 mg&#039;, &#039;Tabletas&#039;, 10.00, 4, 3, 1),
+(&#039;Cetirizina&#039;, &#039;10 mg&#039;, &#039;Tabletas&#039;, 12.00, 2, 3, 1),
+(&#039;Desloratadina&#039;, &#039;5 mg&#039;, &#039;Tabletas Recubiertas&#039;, 30.00, 5, 3, 1),
+(&#039;Ambroxol&#039;, &#039;15 mg/5ml&#039;, &#039;Jarabe 120ml&#039;, 45.00, 3, 3, 2), -- Jarabe
+(&#039;Dextrometorfano&#039;, &#039;10 mg/5ml&#039;, &#039;Jarabe Tos Seca&#039;, 50.00, 1, 3, 2), -- Jarabe
+(&#039;Salbutamol&#039;, &#039;100 mcg&#039;, &#039;Inhalador&#039;, 120.00, 6, 3, 3), -- Asumiendo 3 como &quot;Otro/Inhalador&quot;
+(&#039;Fexofenadina&#039;, &#039;120 mg&#039;, &#039;Caja x 10&#039;, 55.00, 4, 3, 1),
+(&#039;Montelukast&#039;, &#039;10 mg&#039;, &#039;Caja x 30&#039;, 150.00, 2, 3, 1),
+
+-- Gástricos (Tabletas y Suspensiones)
+(&#039;Omeprazol&#039;, &#039;20 mg&#039;, &#039;Capsulas&#039;, 15.00, 1, 4, 1),
+(&#039;Lansoprazol&#039;, &#039;30 mg&#039;, &#039;Capsulas&#039;, 35.00, 5, 4, 1),
+(&#039;Esomeprazol&#039;, &#039;40 mg&#039;, &#039;Caja x 14&#039;, 85.00, 3, 4, 1),
+(&#039;Ranitidina&#039;, &#039;150 mg&#039;, &#039;Tabletas&#039;, 20.00, 2, 4, 1),
+(&#039;Hidroxido de Aluminio&#039;, &#039;Suspensión&#039;, &#039;Frasco 200ml&#039;, 40.00, 4, 4, 2), -- Jarabe
+(&#039;Subsalicilato de Bismuto&#039;, &#039;262 mg&#039;, &#039;Suspension&#039;, 50.00, 6, 4, 2), -- Jarabe
+
+-- Vitaminas y Suplementos (Tabletas e Inyectables)
+(&#039;Vitamina C&#039;, &#039;1 g&#039;, &#039;Tabletas Efervescentes&#039;, 30.00, 1, 5, 1),
+(&#039;Complejo B&#039;, &#039;Forte&#039;, &#039;Inyectable 2ml&#039;, 45.00, 2, 5, 3), -- Inyectable
+(&#039;Neurobion&#039;, &#039;25000&#039;, &#039;Ampolla&#039;, 70.00, 3, 5, 3), -- Inyectable
+(&#039;Calcio + Vitamina D&#039;, &#039;600 mg&#039;, &#039;Frasco x 30&#039;, 110.00, 5, 5, 1),
+(&#039;Acido Folico&#039;, &#039;5 mg&#039;, &#039;Tabletas&#039;, 15.00, 4, 5, 1),
+(&#039;Vitamina E&#039;, &#039;400 UI&#039;, &#039;Capsulas Blandas&#039;, 60.00, 6, 5, 1),
+(&#039;Hierro&#039;, &#039;Jarabe&#039;, &#039;Frasco 120ml&#039;, 35.00, 1, 5, 2), -- Jarabe
+
+-- Dermatológicos (Asumiendo Presentación ID 4: Crema/Tópico)
+(&#039;Clotrimazol&#039;, &#039;1%&#039;, &#039;Crema 20g&#039;, 25.00, 2, 5, 4), -- Crema
+(&#039;Betametasona&#039;, &#039;0.05%&#039;, &#039;Crema 15g&#039;, 30.00, 3, 5, 4), -- Crema
+(&#039;Ketoconazol&#039;, &#039;2%&#039;, &#039;Crema 30g&#039;, 40.00, 5, 5, 4), -- Crema
+(&#039;Oxido de Zinc&#039;, &#039;10%&#039;, &#039;Pomada 50g&#039;, 20.00, 1, 5, 4), -- Crema
+(&#039;Mupirocina&#039;, &#039;2%&#039;, &#039;Ungüento 15g&#039;, 85.00, 4, 5, 4), -- Crema
+
+-- Crónicos y Varios
+(&#039;Losartan&#039;, &#039;50 mg&#039;, &#039;Caja x 30&#039;, 40.00, 6, 4, 1),
+(&#039;Enalapril&#039;, &#039;20 mg&#039;, &#039;Caja x 30&#039;, 35.00, 2, 4, 1),
+(&#039;Atorvastatina&#039;, &#039;20 mg&#039;, &#039;Caja x 10&#039;, 60.00, 3, 4, 1),
+(&#039;Metformina&#039;, &#039;850 mg&#039;, &#039;Tabletas&#039;, 25.00, 1, 4, 1),
+(&#039;Glibenclamida&#039;, &#039;5 mg&#039;, &#039;Tabletas&#039;, 15.00, 5, 4, 1);">Copiar</a>
+    </p>
+<p>
+<code class="sql"><pre>
+INSERT INTO producto (nombre, concentracion, adicional, precio, prod_lab, prod_tip, prod_pre) VALUES 
+-- Analgésicos y Antiinflamatorios (Asumiendo Presentación ID 1: Tableta)
+('Paracetamol', '500 mg', 'Caja x 10', 15.00, 1, 1, 1),
+('Ibuprofeno', '400 mg', 'Capsulas Blandas', 22.50, 2, 1, 1),
+('Naproxeno', '550 mg', 'Forte', 30.00, 3, 1, 1),
+('Diclofenaco', '50 mg', 'Grageas', 18.00, 1, 1, 1),
+('Ketorolaco', '10 mg', 'Sublingual', 45.00, 4, 1, 1),
+('Aspirina', '100 mg', 'Cardio', 12.00, 5, 1, 1),
+('Meloxicam', '15 mg', 'Caja x 10', 35.00, 2, 1, 1),
+('Celecoxib', '200 mg', 'Caja x 10', 50.00, 3, 1, 1),
+('Tramadol', '50 mg', 'Caja x 10', 60.00, 6, 1, 1),
+('Indometacina', '25 mg', 'Caja x 30', 40.00, 1, 1, 1),
+
+-- Antibióticos (Asumiendo Presentación ID 1: Tableta/Cápsula y ID 2: Suspensión)
+('Amoxicilina', '500 mg', 'Capsulas', 25.00, 2, 2, 1),
+('Amoxicilina + Ac. Clav.', '875/125 mg', 'Tabletas Recubiertas', 70.00, 3, 2, 1),
+('Azitromicina', '500 mg', 'Caja x 3', 80.00, [...]
+</pre></code>
+</p>
+<p>
+    <strong>MySQL ha dicho: </strong><a href="./url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F8.0%2Fen%2Fserver-error-reference.html" target="mysql_doc"><img src="themes/dot.gif" title="Documentación" alt="Documentación" class="icon ic_b_help"></a>
+</p>
+<code>#1452 - Cannot add or update a child row: a foreign key constraint fails (`farmaciasistema`.`producto`, CONSTRAINT `producto_ibfk_1` FOREIGN KEY (`prod_lab`) REFERENCES `laboratorio` (`id_laboratorio`))</code><br></div>";s:11:"go_back_url";s:66:"index.php?route=/table/structure&db=farmaciasistema&table=producto";}errors|a:0:{}

@@ -73,7 +73,7 @@ sweetalert2
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-         <li class="nav-header">Usuario</li>
+         <li class="nav-header">Empleados</li>
           <li class="nav-item">
             <a href="editar_datos_personales.php" class="nav-link">
               <i class="nav-icon far fa-user-cog"></i>
@@ -86,7 +86,7 @@ sweetalert2
             <a href="adm_usuario.php" class="nav-link">
               <i class="nav-icon far fa-users"></i>
               <p>
-                Gestion Usuario
+                Gestion Empleado
               </p>
             </a>
           </li>
